@@ -385,7 +385,7 @@ body {
 }
 
 #skills span.right {
-	width: 90px;
+	width: auto;
 	color: #03B8DC;
 }
 /*-----Tools-----*/
