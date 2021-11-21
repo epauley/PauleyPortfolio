@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Beth Pauley | Web Developer</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/jquery.cycle2.video.min.js"></script>
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <script src="js/particle.js"></script>
+    <script src="js/fire.js"></script>
+    <script src="js/canvas.js"></script>
+
+    <section id="intro" name="intro">
+      <h1>Hello World!</h1>
+
+      <p>Welcome to my little section of the web! My name is Beth Pauley and I'm a Web Developer. My passion is blending design, technology, and interaction.</p>
+
+      <div class="chevron chev-left"></div>
+      <div class="chevron chev-right"></div>
+
+    </section>
+
+    <section id="about" name="about">
+
+      <h1>A Little About Me...</h1>
+
+      <p>I graduated from Miami University majoring in Interactive Media Studies (IMS).  This major, examines how digital technology is transforming the world around us.	 While my focus was Web Design, I was free to play, experiment, and innovate with various types of technology in order to seize the opportunities that interactive media presents.</p>
+
+      <p>My love of technology started off when I was young.  I started off playing games on our Sega and eventually moved on to computer games.  The game I remember most fondly is RollerCoaster Tycoon.  I loved the power of creation I had to design the park the way I wanted it to look as well as the power to build rides bigger and better than the ones in the real world (I also liked the part where I earned lots of money).</p>
+
+      <p>Another passion that started early for me was travel.  I have traveled quite a lot for family vacations but it was not recently that I was able to accomplish my goal of making it to the other side of the hemisphere.  In the fall of 2012, I studied abroad in South Korea for one semester at Korea University.  What I was most blown away by, besides the amazing culture, was how central technology is in their lives.  That experience has been one of the highlights in my life and has only fueled my passion.</p>
+
+      <p>When I am not thinking about technology or traveling, I enjoy curling up in a comfy spot and reading.  My favorite fiction genres include historical, adventure, and mystery.</p>
+    </section>
+
+    <hr class="hr-style hr-one">
+
+    <section id="portfolio" name="portfolio">
+      <h1>Projects</h1>
+
+      <div class="grid-container">
+
+        <div class="tile">
+
+          <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev0"
+                data-cycle-next="#next0"
+                >
+            <img src="img/firstPortfolio1.png">
+            <img src="img/firstPortfolio2.png">
+            <img src="img/firstPortfolio3.png">
+            <img src="img/firstPortfolio4.png">
+          </div>
+          <div class="controls">
+            <a href=# id="prev0" class="prev">&#10094;</a>
+            <a href=# id="next0" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>Past Portfolios</h5>
+            <div class="description">
+              <p>My first Portfolio site was made as part of a project for my first ever HTML class.  There were a lot of firsts with this.</p>
+            </div>
+            <a class="button pulse" href="http://www.users.miamioh.edu/pauleyel/portfolio_v1/index.html" target="http://www.users.miamioh.edu/pauleyel/portfolio_v1/index.html">View Version 1 &#10095;</a>
+            <div class="description">
+              <p>My second Portfolio was created after graduating and I was still looking for a job.  The motive for the redesign was to apply more skills from my toolbox such as adding in JavaScript but also have a better user experience.</p>
+            </div>
+            <a class="button pulse" href="http://www.users.miamioh.edu/pauleyel/portfolio_v2/index.html#" target="http://www.users.miamioh.edu/pauleyel/portfolio_v2/index.html">View Version 2 &#10095;</a>
+          </div>
+        </div>
+
+        <div class="tile">
+
+          <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev1"
+                data-cycle-next="#next1"
+                >
+            <img src="img/seoulful_traveler_v2.png">
+          </div>
+          <div class="controls">
+            <a href=# id="prev1" class="prev">&#10094;</a>
+            <a href=# id="next1" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>Seoulful Traveler</h5>
+            <div class="description">
+              <p>The first iteration of this website started off as site to display what I had learned in class.  We had free range to do whatever we wanted so I created a website that suggest places to travel while in Seoul, South Korea.  These suggestion are based off my own experiences while studying abroad there.</p>
+              <p>For the second iteration, I wanted to focus on making the images a more promenent part of the site and giving the it amodern feel but also making it into a single page as there is no real reason for it the be multiple pages.</p>
+            </div>
+            <a class="button pulse" href="https://epauley.github.io/Seoulful-Traveler/" target="https://epauley.github.io/Seoulful-Traveler/">Go To Site &#10095;</a>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev2"
+                data-cycle-next="#next2"
+                >
+            <img src="img/internetTimeline.png">
+            <img src="img/internetTimeline_mobile.png">
+            <img src="img/internetOne.png">
+            <img src="img/internetTwo.png">
+            <img src="img/internetOutlineOne.png">
+            <img src="img/internetOutlineTwo.png">
+          </div>
+          <div class="controls">
+            <a href=# id="prev2" class="prev">&#10094;</a>
+            <a href=# id="next2" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>History of the Internet</h5>
+            <div class="description">
+              <p>This site initially started off as a project for one of my college classes.  After learning how to use JavaScript, the objective was to use javascript and three different jQuery widgets in a website.</p>
+              <p>However, quite some time has past and this really needed to be updated. This time around I focused on improving the UI and UX as well as making site responsive.</p>
+              <p>Since this is a history site would it not make more sense to make it into a timeline? This gives users a better sense of time by displaying events in the order that they happen. There was no major content changes just reordering and updating what was already existing.</p>
+            </div>
+            <a class="button pulse" href="https://epauley.github.io/History-of-the-Internet/" target="https://epauley.github.io/History-of-the-Internet/">Current Version Of Site &#10095;</a>
+            <a class="button pulse" href="https://epauley.github.io/History-of-the-Internet/version-1/index.html" target="https://epauley.github.io/History-of-the-Internet/version-1/index.html">Old Version Of Site &#10095;</a>
+          </div>
+        </div>
+
+        <div class="tile">
+
+          <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev3"
+                data-cycle-next="#next3"
+                >
+            <img src="img/whack-a-mole1.png">
+            <img src="img/whack-a-mole2.png">
+          </div>
+          <div class="controls">
+            <a href=# id="prev3" class="prev">&#10094;</a>
+            <a href=# id="next3" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>Whack-A-Mole</h5>
+            <div class="description">
+              <p>This is a game I built from the ground up completely in Javascript.</p>
+            </div>
+            <a class="button pulse" href="https://epauley.github.io/Whack-A-Mole/" target="https://epauley.github.io/Whack-A-Mole/">Go to Site &#10095;</a>
+          </div>
+        </div>
+
+        <div class="tile">
+
+          <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev4"
+                data-cycle-next="#next4"
+                >
+            <img src="img/galleryOne.png">
+            <img src="img/galleryTwo.png">
+            <img src="img/galleryThree.png">
+            <img src="img/galleryFour.png">
+          </div>
+          <div class="controls">
+            <a href=# id="prev4" class="prev">&#10094;</a>
+            <a href=# id="next4" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>Image Gallery</h5>
+            <div class="description">
+              <p>This was a final project for my web programming class.
+              Our task was to recreate a website based off a PDF the Instructor gave us using the knowledge we had gained over the semester in HTML5, CCS3, and Javascript.</p>
+            </div>
+            <a class="button pulse" href="https://epauley.github.io/Image-Gallery/" target="https://epauley.github.io/Image-Gallery/">Go to Site &#10095;</a>
+          </div>
+        </div>
+
+        <div class="tile">
+
+          <div class="cycle-slideshow"
+            data-cycle-fx="scrollHorz"
+            data-cycle-timeout="0"
+            data-cycle-slides="> iframe"
+            data-cycle-prev="#prev6"
+            data-cycle-next="#next6"
+            >
+            <iframe src="https://player.vimeo.com/video/86715602" width="100%" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/86715041" width="100%" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/86715040" width="100%" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <div class="controls">
+            <a href=# id="prev6" class="prev">&#10094;</a>
+            <a href=# id="next6" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>Video Art Exploration</h5>
+            <div class="description">
+              <p>This project focused on modes of inquiring, probing and experimenting.
+              Goal was not to create narrative structures or persuasive speech (the dominant form in video composition), but rather to try something uncertain, to provoke, to confound or even confuse, to evoke an emotion, or to illuminate.</p>
+              <p>The process was to experiment and try things, to see what worked and then dig deeper into them. There were three phases to create the video.
+              In phase one, the task was to create a 45-90 second video filming thing we found interesting.
+              In phase two, the task was to create a revised 60-120 second video based on feedback received during class discussion of videos.
+              Lastly, phase three was to create final video keeping in mind feedback received during class discussion on video two.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tile">
+
+          <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#prev7"
+                data-cycle-next="#next7"
+                >
+            <img src="img/finalAnimationOne.png">
+            <img src="img/finalAnimationTwo.png">
+            <img src="img/finalAnimationThree.png">
+            <img src="img/finalAnimationFour.png">
+            <img src="img/3DModel2.png">
+            <img src="img/processingModel2.png">
+            <img src="img/AnimationOne.png">
+            <img src="img/AnimationTwo.png">
+            <img src="img/3DModel1.png">
+            <img src="img/processingModel1.png">
+          </div>
+          <div class="controls">
+            <a href=# id="prev7" class="prev">&#10094;</a>
+            <a href=# id="next7" class="next">&#10095;</a>
+          </div>
+
+          <div class="text-container">
+            <h5>Animation and Laser Cutter</h5>
+            <div class="description">
+              <p>The goal of this project was to create an animation and then bring that animation to life as an abstract sculpture.
+              Using Processing, we created animations.  These animations were complied as a series of images and sent to a laser cutter.
+              From there the cut out images needed to be assembled.  To get to the final form it went through two iterations which can be seen above.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="img-container">
+            <img alt="Screen Shot" width="250px" height="auto" src="img/interactiveObjectAnimation.png"/>
+          </div>
+          <div class="text-container">
+            <h5>Interactive Object Animation</h5>
+            <div class="description">
+            <p>The goal of this project was to use an inanimate object and animate it when a user clicked on or hovered over it. In my animation, my inspiration was a radio with the characteristics of a dog. When you hover over it, it will sit up and wag its antenna.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tile">
+          <div class="img-container">
+            <img alt="Screen Shot" width="250px" height="auto" src="img/interactiveCharacterAnimation.png"/>
+          </div>
+          <div class="text-container">
+            <h5>Interactive Character Animation</h5>
+            <div class="description">
+            <p>The goal of this project was to create a character animation that is controlled by keyboard input. To interact with character, click on the screen. Use the left and right arrow keys to move character. You can also make her jump by using the up key.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr-style hr-two">
+
+    <section id="experience" name="experience">
+      <h1>Experience</h1>
+      <div class="job">
+        <div class="left">
+          <h6>SCOTTS MIRACLE-GRO</h6>
+          <p>Apr 2015 - Present</p>
+        </div>
+        <div class="right">
+          <p>
+            I initially worked at Scotts as a development intern for the Emerging Tech Team. I collaborated with two other interns on a project to create an Employee Recognition application from scratch. As part of the App’s creation, we had to meet project deadlines and changes in the project’s scope. My primary responsibilities were coding the HTML and CSS of the Web App and I held sole responsibility for designing icons for the various recognition's an employee can receive. During this project I got a chance to work with Google App Engine and AngularJS as well.
+          </p>
+          <p>
+            I was lucky enough to also work with the eBusiness Team as an intern and when I applied for a job after graduation, they wanted to bring me on. Currently, I assist with our external facing websites doing front-end design, development, and maintenance. Along with those responsibilities, I assist where I can with adding back-end functionality as I grow my skills.
+          </p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="left">
+          <h6>MIAMI UNIVERSITY Center for Information Management</h6>
+          <p>Sep 2014 - Dec 2014</p>
+        </div>
+        <div class="right">
+          <p>I assisted students with a wide variety of technical questions which included how to use Adobe Creative Suite, iMovie/Final Cut, Microsoft Office, Printing/Scanning/Faxing, Media Conversion and anything in between.
+          </p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="left">
+          <h6>SCOTTS MIRACLE-GRO</h6>
+          <p>May 2014 - Aug 2014</p>
+        </div>
+        <div class="right">
+          <p>Worked as a development intern for the Emerging Tech Team. I collaborated with two other interns on a project to create an Employee Recognition application from scratch. As part of the App’s creation, we had to meet project deadlines and changes in the project’s scope. My primary responsibilities were coding the HTML and CSS of the Web App and I held sole responsibility for designing icons for the various recognitions an employee can receive. During this project I got a chance to work with Google App Engine and AngularJS as well.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr-style hr-three">
+
+    <section id="education" name="education">
+      <h1>Education</h1>
+      <div class="school">
+        <div class="left">
+          <h6>MAIMI UNIVERSITY, OXFORD OH</h6>
+          <h6>BACHELOR OF FINE ARTS</h6>
+          <h6>Dec 2014 </h6>
+        </div>
+        <div class="right">
+          <p>Major: Interactive Media Studies</p>
+          <p>
+            So what is Interactive Media Studies?
+          </p>
+          <p>"Interactive media is the integration of digital media, including combinations of electronic text, graphics, moving images, and sound, into a structured digital computerized environment that allows people to interact with the data for appropriate purposes. Interactive Media Studies is an interdisciplinary program that brings together students and faculty throughout the university to investigate how interactive media informs and transforms their disciplinary perspective. Through problem-based learning and team-oriented projects, students learn how to apply their theoretical knowledge to innovative digital solutions."
+          </p>
+          <p>
+            <a href="https://miamioh.edu/academics/majors-minors/majors/interactive-media-studies.html">~ Miami University ~</a>
+          </p>
+          <p>Related coursework:</p>
+          <ul>
+            <li>Information Studies: Digital Age</li>
+            <li>Web Interaction Programming</li>
+            <li>Web and Interaction Design</li>
+            <li>Information and Data Visualization</li>
+            <li>Information Technology and the Intelligent Enterprise</li>
+            <li>Interactive Animation</li>
+            <li>Fundamentals of Programming and Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+      <div class="school">
+        <div class="left">
+          <h6>KOREA UNIVERSITY, SEOUL KOREA</h6>
+          <h6>STUDY ABROAD</h6>
+          <h6>Aug 2012 - Dec 2012</h6>
+        </div>
+        <div class="right">
+          <p>Studied Korean/East Asian culture as well as business with an emphasis on the international perspective.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr-style hr-four">
+
+    <section id="sideBySide" name="education">
+      <section id="skills" name="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>
+            <span class="left">CSS(3)</span>
+            <span class="right">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">HTML(5)</span>
+            <span class="right">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">SASS / SCSS</span>
+            <span class="right">&#9733; &#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">Drupal</span>
+            <span class="right">&#9733; &#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">UX Design</span>
+            <span class="right">&#9733; &#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">Javascript</span>
+            <span class="right">&#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">Typography</span>
+            <span class="right">&#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">TWIG</span>
+            <span class="right">&#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">Command Line</span>
+            <span class="right">&#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">Version Control</span>
+            <span class="right">&#9733; &#9733; &#9733;</span>
+          </li>
+          <li>
+            <span class="left">PHP</span>
+            <span class="right">&#9733; &#9733; &#9733;</span>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="hr-style hr-five">
+
+      <section id="tools" name="tools">
+        <h1>Tools</h1>
+        <ul>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>FileZilla</li>
+          <li>Mac</li>
+          <li>Windows</li>
+          <li>SourceTree</li>
+          <li>Atlassian / Jira</li>
+          <li>PHPStorm</li>
+          <li>Git</li>
+          <li>MS Office</li>
+        </ul>
+      </section>
+    </section>
+
+    <hr class="hr-style hr-six">
+
+    <section id="contact" name="contact">
+      <h3>So...like what you see?</h3>
+      <p>
+        If you did then here are some actions you can take. :)
+      </p>
+      <a class="button pulse" href="mailto:pauleyel@miamioh.edu" onClick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=pauleyel@miamioh.edu');return false;">Contact Me!</a>
+      <a class="button pulse" href="img/webResume.pdf" download>Download Resume</a>
+      <a class="button pulse" href="http://www.linkedin.com/in/bethpauley/" target="http://www.linkedin.com/in/bethpauley/">Connect on LinkedIn</a>
+    </section>
+
+  </body>
+</html>
