@@ -208,8 +208,14 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #f0f0f0;
+	scrollbar-width: none; /* Hide scrollbar Firefox */
 	background-color: #222222;
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #about, #portfolio, #experience, #education, #skills, #tools, #contact {
@@ -245,13 +251,13 @@ body {
 	content: '\002600';
 }
 .hr-four:after {
-	content: url(https://png.icons8.com/ios/30/4d4d4d/launched-rocket-filled.png);
+	content: '\002605';
 }
 .hr-five:after {
-	content: url(https://png.icons8.com/ios/30/4d4d4d/comet-filled.png);
+	content: '\00263e';
 }
 .hr-six:after {
-	content: url(https://png.icons8.com/ios/30/4d4d4d/astronaut-filled.png);
+	content: '\002600';
 }
 
 .controls {
@@ -386,15 +392,35 @@ body {
 	margin-bottom: 15px;
 }
 
-#skills span.right {
-	width: auto;
-	color: #03B8DC;
+#skills ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#skills ul li {
+	background-color: rgba(3, 184, 220, 0.2);
+	color: #03b8dc;
+	margin: 0 .5rem .5rem 0;
+	padding: .25rem .5rem;
 }
 /*-----Tools-----*/
 
 #tools{
 	color: #f0f0f0;
 	margin-bottom: 15px;
+}
+
+
+#tools ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tools ul li {
+	background-color: rgba(3, 184, 220, 0.2);
+	color: #03b8dc;
+	margin: 0 .5rem .5rem 0;
+	padding: .25rem .5rem;
 }
 
 /*-----Contact-----*/
